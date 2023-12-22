@@ -2,10 +2,9 @@ package week_16.test;
 
 import org.junit.jupiter.api.*;
 import week_16.assignments.LoginValidator;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-class LoginValidatorTestTest {
+class LoginValidatorTest {
     @BeforeAll
     static void setUp(){
         System.out.println("Setting up shared resources...");
@@ -18,8 +17,11 @@ class LoginValidatorTestTest {
     @Test
     public void tc01_01ValidEmailAddress(){
         LoginValidator loginValidatorObj = new LoginValidator();
-        assertTrue(loginValidatorObj.validateUsername("mdokur"), "TC_01_01 : Invalid username");
+        assertTrue(loginValidatorObj.validateUsername("mdokur@gmail.com"), "TC_01_01 : Invalid username");
     }
+
+   // @Test
+    //public void tc01_02EmailWithout
 
     @AfterEach
     void tearDown(){
