@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f19ff7-e600-45e1-ae6a-0daeee84220c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inar-junit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_16/assignments/LoginValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_16/test/LoginValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/assignments/AgeRestrictionValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/assignments/ShippingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/test/AgeRestrictionValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/test/ShippingCostCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/test/LoginValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/test/LoginValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +64,22 @@
       <recent name="week_16.test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AgeRestrictionValidatorTest">
+    <configuration name="AgeRestrictionValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inar-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_16.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_16.test" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.AgeRestrictionValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inar-junit" />
       <extension name="coverage">
@@ -83,15 +95,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="LoginValidatorTest.tc01_01ValidEmailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inar-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_16.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_16.test" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
+      <option name="METHOD_NAME" value="tc01_01ValidEmailAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginValidatorTest.tc01_01ValidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inar-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_16.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_16.test" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
+      <option name="METHOD_NAME" value="tc01_01ValidPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginValidatorTest.tc01_02EmailInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inar-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_16.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_16.test" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
+      <option name="METHOD_NAME" value="tc01_02EmailInvalid(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AgeRestrictionValidatorTest" />
         <item itemvalue="JUnit.LoginValidatorTest" />
+        <item itemvalue="JUnit.LoginValidatorTest.tc01_01ValidPassword" />
+        <item itemvalue="JUnit.LoginValidatorTest.tc01_02EmailInvalid" />
+        <item itemvalue="JUnit.LoginValidatorTest.tc01_01ValidEmailAddress" />
       </list>
     </recent_temporary>
   </component>
