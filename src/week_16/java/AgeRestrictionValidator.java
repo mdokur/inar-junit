@@ -1,4 +1,4 @@
-package week_16.assignments;
+package week_16.java;
 
 public class AgeRestrictionValidator {
     private static final int MIN_AGE = 18;

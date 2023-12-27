@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
-import week_16.assignments.LoginValidator;
+import week_16.java.LoginValidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

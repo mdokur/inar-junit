@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f19ff7-e600-45e1-ae6a-0daeee84220c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week_16/assignments/AgeRestrictionValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_16/assignments/ShippingCostCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_16/test/AgeRestrictionValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_16/test/ShippingCostCalculatorTest.java" afterDir="false" />
+    <list default="true" id="37f19ff7-e600-45e1-ae6a-0daeee84220c" name="Changes" comment="2 modified and 4 added">
+      <change afterPath="$PROJECT_DIR$/src/week_16/java/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/java/OrderStatusManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/java/SubscriptionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/test/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_16/test/OrderStatusManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/assignments/AgeRestrictionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/java/AgeRestrictionValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/assignments/LoginValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/java/LoginValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/assignments/ShippingCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/java/ShippingCostCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/test/AgeRestrictionValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/test/AgeRestrictionValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/week_16/test/LoginValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/test/LoginValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_16/test/ShippingCostCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_16/test/ShippingCostCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,7 @@
       <recent name="week_16.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgeRestrictionValidatorTest">
+  <component name="RunManager">
     <configuration name="AgeRestrictionValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inar-junit" />
       <extension name="coverage">
@@ -95,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginValidatorTest.tc01_01ValidEmailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShippingCostCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inar-junit" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +110,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week_16.test" />
-      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
-      <option name="METHOD_NAME" value="tc01_01ValidEmailAddress" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.ShippingCostCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShippingCostCalculatorTest.tc_16_01LocalDestinationStandardDelivery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inar-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_16.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week_16.test" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.ShippingCostCalculatorTest" />
+      <option name="METHOD_NAME" value="tc_16_01LocalDestinationStandardDelivery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginValidatorTest.tc01_01ValidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShippingCostCalculatorTest.tc_16_05ZeroWeightLocalStandardDelivery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="inar-junit" />
       <extension name="coverage">
         <pattern>
@@ -120,24 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week_16.test" />
-      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
-      <option name="METHOD_NAME" value="tc01_01ValidPassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginValidatorTest.tc01_02EmailInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="inar-junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_16.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week_16.test" />
-      <option name="MAIN_CLASS_NAME" value="week_16.test.LoginValidatorTest" />
-      <option name="METHOD_NAME" value="tc01_02EmailInvalid(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="week_16.test.ShippingCostCalculatorTest" />
+      <option name="METHOD_NAME" value="tc_16_05ZeroWeightLocalStandardDelivery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AgeRestrictionValidatorTest" />
         <item itemvalue="JUnit.LoginValidatorTest" />
-        <item itemvalue="JUnit.LoginValidatorTest.tc01_01ValidPassword" />
-        <item itemvalue="JUnit.LoginValidatorTest.tc01_02EmailInvalid" />
-        <item itemvalue="JUnit.LoginValidatorTest.tc01_01ValidEmailAddress" />
+        <item itemvalue="JUnit.ShippingCostCalculatorTest" />
+        <item itemvalue="JUnit.ShippingCostCalculatorTest.tc_16_05ZeroWeightLocalStandardDelivery" />
+        <item itemvalue="JUnit.ShippingCostCalculatorTest.tc_16_01LocalDestinationStandardDelivery" />
+        <item itemvalue="JUnit.AgeRestrictionValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +167,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703261904731</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 modified and 4 added">
+      <option name="closed" value="true" />
+      <created>1703330229284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703330229284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 modified and 4 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 modified and 4 added" />
   </component>
 </project>

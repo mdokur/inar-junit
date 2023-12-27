@@ -1,4 +1,4 @@
-package week_16.assignments;
+package week_16.java;
 
 import java.util.regex.Pattern;
 
